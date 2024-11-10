@@ -1,2 +1,62 @@
+getgenv().Config = {
+	["Inventory"] = {
+		["Auto Favourite"] = {
+			["Special Attribute"] = true,
+			["Rarity"] = {
+				["Unusual"] = true,
+				["Trash"] = true,
+				["Mythical"] = true,
+				["Uncommon"] = true,
+				["Rare"] = true,
+				["Legendary"] = true,
+				["Event"] = true,
+				["Relic"] = true,
+				["Common"] = true
+			},
+			["Weight"] = 100,
+			["Enable"] = true,
+			["Unfavourite if unmatch"] = true
+		}
+	},
+	["AutoSave"] = true,
+	["Webhook"] = {
+		["Mention"] = "1093871052112789586",
+		["Fish Catched"] = {
+			["Enable"] = true,
+			["Minimum Weight"] = 1000,
+			["Special Attribute"] = true
+		},
+		["URL"] = "https://discord.com/api/webhooks/1305159552760676442/Joq6TZSYD-lejDw63Gid7X1rdTpQ1a0wJL-KV9yA_gd45tBxd9VixghreaeuMQAj9wgA"
+	},
+	["Auto Fish"] = {
+		["Legit Reel"] = true,
+		["Fish Location"] = {
+			["Height"] = -50
+		},
+		["Cast Threshold"] = 95,
+		["Enable"] = true,
+		["Legit Cast"] = true,
+		["Perfect Chance"] = 50,
+		["Fail Chance"] = 5
+	},
+	["Auto Bait"] = {
+		["Buy"] = true,
+		["Equip Random"] = true
+	},
+	["Character"] = {
+		["Water Walk"] = true
+	},
+	["Auto Merlin"] = {
+		["Lucky"] = true,
+		["Power"] = true
+	},
+	["Performance Failsafe"] = {
+		["Rejoin Timer"] = {
+			["Minute"] = 60
+		},
+		["Ping Freeze"] = true,
+		["Auto Rejoin"] = true
+	}
+}
 getgenv().Key = "kf31b0017bd41a68c7309bff"
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
