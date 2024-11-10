@@ -1,4 +1,2 @@
-getgenv().Key = "MARU-741J-3ER4K-SIMK-0GX2E-85UJ"
-getgenv().id = "1093871052112789586"
-getgenv().Script_Mode = "Kaitun_Script"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+getgenv().Key = "kf31b0017bd41a68c7309bff"
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
