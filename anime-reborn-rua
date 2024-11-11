@@ -22,7 +22,7 @@ getgenv().Config = {
 	},
 	["Macros"] = {
 		["Ignore Macro Timing"] = true,
-		["Macro"] = "hung-animeborn",
+		["Macro"] = "hung1",
 		["No Ignore Sell Timing"] = true,
 		["Play"] = true
 	}
