@@ -1,2 +1,29 @@
+getgenv().Config = {
+	["Webhook"] = {
+		["Game Finished"] = true,
+		["Mention"] = "1093871052112789586",
+		["URL"] = "https://discord.com/api/webhooks/1297057384405008415/oGGZ9OJiCQB_zrbc3V47LmWv_t5bF-gRTibg_Cul-HXqPZKqYVko6OvokJ_OW5EsVn5W"
+	},
+	["Game Finished"] = {
+		["Auto Replay"] = true
+	},
+	["Performance"] = {
+		["Delete Map"] = true,
+		["Boost FPS"] = true,
+		["Delete Entities"] = true
+	},
+	["AutoSave"] = true,
+	["World Joiner"] = {
+		["Enable"] = true,
+		["Act"] = "[Story] Act 1",
+		["World"] = "West City"
+	},
+	["Macros"] = {
+		["Ignore Macro Timing"] = true,
+		["Macro"] = "hung1",
+		["No Ignore Sell Timing"] = true,
+		["Play"] = true
+	}
+}
 getgenv().Key = "kf31b0017bd41a68c7309bff"
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
