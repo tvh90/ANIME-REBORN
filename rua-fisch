@@ -1,5 +1,9 @@
 getgenv().Config = {
 	["AutoSave"] = true,
+	["Webhook"] = {
+		["Mention"] = "1093871052112789586",
+		["URL"] = "https://discord.com/api/webhooks/1296408176568307732/OKLHfahFvdqtsxCkJNUzWJHvwoEzUso8ecZD0-tSx66seXnEgZ9FSrvpX1MobIpqnY0D"
+	},
 	["Auto Fish"] = {
 		["Fish Location"] = {
 			["Height"] = -50
