@@ -1,2 +1,29 @@
+getgenv().Config = {
+	["AutoSave"] = true,
+	["Auto Fish"] = {
+		["Fish Location"] = {
+			["Height"] = -50
+		},
+		["Cast Threshold"] = 95,
+		["Enable"] = true,
+		["Perfect Chance"] = 50,
+		["Fail Chance"] = 5
+	},
+	["Character"] = {
+		["Water Walk"] = true
+	},
+	["Auto Merlin"] = {
+		["Lucky"] = true,
+		["Power"] = true
+	},
+	["Performance"] = {
+		["Boost FPS"] = true
+	},
+	["Performance Failsafe"] = {
+		["Rejoin Timer"] = {
+			["Minute"] = 60
+		}
+	}
+}
 getgenv().Key = "k272e339050f1e8bb2d56393"
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
