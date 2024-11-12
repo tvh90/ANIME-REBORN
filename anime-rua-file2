@@ -1,0 +1,32 @@
+getgenv().Config = {
+	["Webhook"] = {
+		["Game Finished"] = false,
+		["Mention"] = "",
+		["URL"] = ""
+	},
+	["Game Finished"] = {
+		["Auto Replay"] = true
+	},
+	["Failsafe"] = {
+		["Auto Rejoin"] = true
+	},
+	["Performance"] = {
+		["Delete Map"] = true,
+		["Boost FPS"] = true,
+		["Delete Entities"] = true
+	},
+	["AutoSave"] = true,
+	["World Joiner"] = {
+		["Enable"] = true,
+		["Act"] = "[Story] Act 1",
+		["World"] = "West City"
+	},
+	["Macros"] = {
+		["Ignore Macro Timing"] = true,
+		["Macro"] = "hung1",
+		["No Ignore Sell Timing"] = true,
+		["Play"] = true
+	}
+}
+getgenv().Key = "k11e11c4fed413df4cbcf46b"
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
