@@ -1,7 +1,7 @@
 _G.Settings = {
     ["AfkCheckTime"] = 300,
     ["AutoFishing"] = true,
-    ["SellFish"] = true,
+    ["SellFish"] = false,
     ['MethodShake'] = "Fast", -- Fast, Fix bug
     ["Instant_Coin"] = false,
     ["SetSteek"] = 100,
