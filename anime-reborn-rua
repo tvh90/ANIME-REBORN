@@ -1,8 +1,8 @@
 getgenv().Config = {
 	["Webhook"] = {
-		["Game Finished"] = true,
-		["Mention"] = "1093871052112789586",
-		["URL"] = "https://discord.com/api/webhooks/1297057384405008415/oGGZ9OJiCQB_zrbc3V47LmWv_t5bF-gRTibg_Cul-HXqPZKqYVko6OvokJ_OW5EsVn5W"
+		["Game Finished"] = false,
+		["Mention"] = "",
+		["URL"] = ""
 	},
 	["Game Finished"] = {
 		["Auto Replay"] = true
