@@ -28,5 +28,5 @@ getgenv().Config = {
 		["Play"] = true
 	}
 }
-getgenv().Key = "k272e339050f1e8bb2d56393"
+getgenv().Key = "k44d4ea8295b2d5ad6128476"
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
