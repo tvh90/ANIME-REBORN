@@ -1,4 +1,4 @@
-getgenv().Key = "kc14a91d9f62e775ad3884fa"
+getgenv().Key = "kae26a9010f6f1833348f809"
 getgenv().Config = {
     ["Auto Fish"] = {
         ["Fish Location"] = {
