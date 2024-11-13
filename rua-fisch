@@ -1,33 +1,26 @@
+getgenv().Key = "kc14a91d9f62e775ad3884fa"
 getgenv().Config = {
-	["AutoSave"] = true,
-	["Webhook"] = {
-		["Mention"] = "1093871052112789586",
-		["URL"] = "https://discord.com/api/webhooks/1296408176568307732/OKLHfahFvdqtsxCkJNUzWJHvwoEzUso8ecZD0-tSx66seXnEgZ9FSrvpX1MobIpqnY0D"
-	},
-	["Auto Fish"] = {
-		["Fish Location"] = {
-			["Height"] = -50
-		},
-		["Cast Threshold"] = 95,
-		["Enable"] = true,
-		["Perfect Chance"] = 50,
-		["Fail Chance"] = 5
-	},
-	["Character"] = {
-		["Water Walk"] = true
-	},
-	["Auto Merlin"] = {
-		["Lucky"] = true,
-		["Power"] = true
-	},
-	["Performance"] = {
-		["Boost FPS"] = true
-	},
-	["Performance Failsafe"] = {
-		["Rejoin Timer"] = {
-			["Minute"] = 60
-		}
-	}
+    ["Auto Fish"] = {
+        ["Fish Location"] = {
+            ["Postion"] = "-2672.5686, 171.984573, 1742.10718, -0.130706683, -0.0110311983, 0.991359711, 3.87231747e-10, 0.999938071, 0.011126712, -0.991421044, 0.0014543283, -0.130698591",
+            ["Manual"] = true,
+            ["Height"] = -50
+        },
+        ["Cast Threshold"] = 100,
+        ["Enable"] = true,
+        ["Perfect Chance"] = 100,
+        ["Fail Chance"] = 0
+    },
+    ["Performance"] = {
+        ["Boost FPS"] = true,
+        ["Black Screen"] = true
+    },
+    ["Performance Failsafe"] = {
+        ["Rejoin Timer"] = {
+            ["Minute"] = 60
+        },
+        ["Ping Freeze"] = true,
+        ["Auto Rejoin"] = true
+    }
 }
-getgenv().Key = "k272e339050f1e8bb2d56393"
-repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
