@@ -21,7 +21,7 @@ getgenv().SettingFarm = {
         ["Spam Only Act 1"] = false ,
         ["if have unit roll will auto Next Act"] = true, -- next until unlock infinite
     },
-    ["Black Screen"] = true,
+    ["Black Screen"] = false,
     ["Webhook"] = {
         ["Enabled"] = false,
         ["Url"] = "",
