@@ -15,7 +15,7 @@ _G.Settings = {
     ["Instant_Coin"] = true,
     ["SetSteek"] = 100,
     ["FpsBoost"] = true,
-    ["Black_Screen"] = false
+    ["Black_Screen"] = true
 }
 getgenv().Key = "MARU-OST0-10N4R-50CH-Z2WGK-HLI3"
 getgenv().id = "1086721157711024200"
