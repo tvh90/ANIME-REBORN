@@ -1,12 +1,21 @@
 _G.Settings = {
-    ["AfkCheckTime"] = 300,
+    ["AfkCheckTime"] = 300, -- Seconds
     ["AutoFishing"] = true,
-    ["SellFish"] = false,
+    ["SellFish"] = {
+        ["Enable"] = true,
+        ["Method"] = {
+            ["Event"] = true,
+            ["Enchant"] = true,
+            ["Mythical"] = true,
+            ["Legenday"] = true
+        }
+    },
+    ['MakeRod'] = {'Aurora Rod', 'Trident Rod'},
     ['MethodShake'] = "Fast", -- Fast, Fix bug
-    ["Instant_Coin"] = false,
+    ["Instant_Coin"] = true,
     ["SetSteek"] = 100,
     ["FpsBoost"] = true,
-    ["Black_Screen"] = false
+    ["Black_Screen"] = true
 }
 getgenv().Key = "MARU-OST0-10N4R-50CH-Z2WGK-HLI3"
 getgenv().id = "1086721157711024200"
