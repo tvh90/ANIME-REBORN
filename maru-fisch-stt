@@ -1,0 +1,6 @@
+repeat task.wait() until game:IsLoaded() 
+getgenv().Hermanos_Settings = {
+	['key'] = '2349f451-7984-466b-af0f-15f80e9b3948',
+	['PC'] = 'DDC-1',
+}
+task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/fisch-main.lua'))() end)
