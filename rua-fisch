@@ -1,26 +1,2 @@
 getgenv().Key = "kae26a9010f6f1833348f809"
-getgenv().Config = {
-    ["Auto Fish"] = {
-        ["Fish Location"] = {
-            ["Postion"] = "-2672.5686, 171.984573, 1742.10718, -0.130706683, -0.0110311983, 0.991359711, 3.87231747e-10, 0.999938071, 0.011126712, -0.991421044, 0.0014543283, -0.130698591",
-            ["Manual"] = true,
-            ["Height"] = -50
-        },
-        ["Cast Threshold"] = 100,
-        ["Enable"] = true,
-        ["Perfect Chance"] = 100,
-        ["Fail Chance"] = 0
-    },
-    ["Performance"] = {
-        ["Boost FPS"] = true,
-        ["Black Screen"] = false
-    },
-    ["Performance Failsafe"] = {
-        ["Rejoin Timer"] = {
-            ["Minute"] = 60
-        },
-        ["Ping Freeze"] = true,
-        ["Auto Rejoin"] = true
-    }
-}
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
