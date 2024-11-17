@@ -12,7 +12,7 @@ _G.Settings = {
     },
     ['MakeRod'] = {'Aurora Rod', 'Trident Rod'},
     ['MethodShake'] = "Fast", -- Fast, Fix bug
-    ["Instant_Coin"] = true,
+    ["Instant_Coin"] = false,
     ["SetSteek"] = 100,
     ["FpsBoost"] = true,
     ["Black_Screen"] = true
