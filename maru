@@ -1,5 +1,5 @@
 _G.Settings = {
-    ["AfkCheckTime"] = 300, -- Seconds
+    ["AfkCheckTime"] = 60, -- Seconds
     ["AutoFishing"] = true,
     ["SellFish"] = {
         ["Enable"] = true,
