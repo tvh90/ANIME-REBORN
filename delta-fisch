@@ -1,0 +1,23 @@
+_G.Settings = {
+    ["AfkCheckTime"] = 300, -- Seconds
+    ["AutoFishing"] = true,
+    ["SellFish"] = {
+        ["Enable"] = true,
+        ["Method"] = {
+            ["Event"] = true,
+            ["Enchant"] = true,
+            ["Mythical"] = true,
+            ["Legendary"] = true
+        }
+    },
+    ['MakeRod'] = {'Aurora Rod', 'Trident Rod'},
+    ['MethodShake'] = "Fast", -- Fast, Fix bug
+    ["Instant_Coin"] = false,
+    ["SetSteek"] = 100,
+    ["FpsBoost"] = false,
+    ["Black_Screen"] = true
+}
+getgenv().Key = "MARU-14TU-4DF0Y-9HSY-LJVXD-CHH4"
+getgenv().id = "1093871052112789586"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
